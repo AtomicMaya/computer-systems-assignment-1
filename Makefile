@@ -3,7 +3,7 @@ CCFLAGS=-Wall
 LDFLAGS=-lssl -lcrypto
 SOURCES=$(wildcard *.c)
 OBJECTS=$(SOURCES:.c=.o)
-TARGET=fileHasher
+TARGET=hasher
 
 all: $(TARGET)
 
